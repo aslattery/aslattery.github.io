@@ -1,1 +1,1 @@
-# aslattery.github.io
+awslattery.com

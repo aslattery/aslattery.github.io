@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.r {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.h {
+    padding: 8rem 0;
+}
+
+.n {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.b {
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    color: #999;
+}
+
+.rs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rs li {
+    margin: 0 0 5rem 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.role-t {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0 0 0.25rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.role-o {
+    color: #0075B4;
+    font-size: 0.9rem;
+}
+
+.role-d {
+    font-size: 0.8rem;
+}
+
+.g5 {
+    width: 41.666%;
+}
+.g7 {
+    width: 58.333%;
+}
+
+.r.c {
+    margin: 9rem auto 3rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.c a {
+    color: #999;
+    font-size: 0.8rem;
+    margin: 1.25rem;
+}
+
+@media (max-width : 960px){
+    .h {
+        padding: 4rem 0;
+    }
+    .r {
+        padding: 0 2rem;
+    }
+    .rs li {
+        flex-direction: column;
+        margin: 0 0 2.5rem 0;
+    }
+    .g5,.g7 {
+        width: 100%;
+    }
+    .r.c {
+        margin: 5rem auto 3rem auto;
+        flex-wrap: wrap;
+    }
+}
